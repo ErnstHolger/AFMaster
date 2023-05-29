@@ -7,8 +7,8 @@
     <ProjectGuid>{66E96093-664D-4212-B6A3-C8E9965E71F3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AFMaster2R</RootNamespace>
-    <AssemblyName>AFMaster2R</AssemblyName>
+    <RootNamespace>AFMaster2Python</RootNamespace>
+    <AssemblyName>AFMaster2Python</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

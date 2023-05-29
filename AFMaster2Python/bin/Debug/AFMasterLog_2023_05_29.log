@@ -1,0 +1,6 @@
+<LogEntry Date="2023-05-29 11:47:32" Severity="Info" Source="AFMaster.Library..ctor" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2023-05-29 11:47:32" Severity="Info" Source="AFMaster.Library..ctor" ThreadId="1">
+  <Message>log started ...</Message>
+</LogEntry>
