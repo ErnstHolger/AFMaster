@@ -78,9 +78,8 @@ namespace AFMaster2R
         }
         static void CreatePythonFunctions()
         {
-            var path = @"C:\Users\Holger\PycharmProjects\PIFrames\";
-            // path = @"C:\Users\Holger\Documents\";
-
+            var path = @"C:\Repos\AFMaster\AFMaster\bin\Debug\";
+ 
             Library library = new Library();
             Assembly assembly = Assembly.Load("AFMaster");
             //Console.WriteLine(assembly.FullName);

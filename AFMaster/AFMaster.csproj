@@ -85,6 +85,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="OSIsoft.AFSDK">
       <HintPath>..AFMaster\libs\OSIsoft.AFSDK.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
