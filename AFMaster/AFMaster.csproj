@@ -97,12 +97,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>rem "C:\Program Files (x86)\Eziriz\.NET Reactor\dotNET_Reactor.Console.exe" -file "C:\Users\Holger\Source\Workspaces\AFMaster\AFMaster\AFMaster\bin\Debug\AFMaster.dll" -antitamp 1 -control_flow_obfuscation 1 -flow_level 9 -resourceencryption 1 -mapping_file 1
-rem xcopy "C:\Users\Holger\Source\Workspaces\AFMaster\AFMaster\AFMaster\bin\Debug\AFMaster_Secure\AFMaster.dll" "C:\Users\Holger\Documents\ROSIsoft\" /Y
-
-copy "$(TargetPath)" "C:\Users\Holger\PycharmProjects\PIFrames\AFMaster.dll"
-
-</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
     <PreBuildEvent>

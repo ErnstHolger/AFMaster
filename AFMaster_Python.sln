@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFMaster", "AFMaster\AFMaster.csproj", "{72BDB33F-2D9F-48DB-9FEC-A953F1EBEC57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFMaster2Python", "AFMaster2Python\AFMaster2Python.csproj", "{66E96093-664D-4212-B6A3-C8E9965E71F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{72BDB33F-2D9F-48DB-9FEC-A953F1EBEC57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72BDB33F-2D9F-48DB-9FEC-A953F1EBEC57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72BDB33F-2D9F-48DB-9FEC-A953F1EBEC57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66E96093-664D-4212-B6A3-C8E9965E71F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66E96093-664D-4212-B6A3-C8E9965E71F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66E96093-664D-4212-B6A3-C8E9965E71F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66E96093-664D-4212-B6A3-C8E9965E71F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
