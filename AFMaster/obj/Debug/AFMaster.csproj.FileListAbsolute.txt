@@ -1,0 +1,45 @@
+D:\VS Source\AFMaster\AFMaster\AFMaster\obj\Debug\AFMaster.csproj.CoreCompileInputs.cache
+D:\VS Source\AFMaster\AFMaster\AFMaster\bin\Debug\AFMaster.dll
+D:\VS Source\AFMaster\AFMaster\AFMaster\bin\Debug\AFMaster.pdb
+D:\VS Source\AFMaster\AFMaster\AFMaster\bin\Debug\OSIsoft.AFSDK.dll
+D:\VS Source\AFMaster\AFMaster\AFMaster\bin\Debug\OSIsoft.AFSDK.xml
+D:\VS Source\AFMaster\AFMaster\AFMaster\obj\Debug\AFMaster.csproj.CopyComplete
+D:\VS Source\AFMaster\AFMaster\AFMaster\obj\Debug\AFMaster.dll
+D:\VS Source\AFMaster\AFMaster\AFMaster\obj\Debug\AFMaster.pdb
+D:\VS Source\AFMaster\AFMaster\AFMaster\bin\Debug\System.Text.Json.dll
+D:\VS Source\AFMaster\AFMaster\AFMaster\bin\Debug\System.Memory.dll
+D:\VS Source\AFMaster\AFMaster\AFMaster\bin\Debug\System.Text.Encodings.Web.dll
+D:\VS Source\AFMaster\AFMaster\AFMaster\bin\Debug\System.Numerics.Vectors.dll
+D:\VS Source\AFMaster\AFMaster\AFMaster\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\VS Source\AFMaster\AFMaster\AFMaster\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\VS Source\AFMaster\AFMaster\AFMaster\bin\Debug\System.Buffers.dll
+D:\VS Source\AFMaster\AFMaster\AFMaster\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\VS Source\AFMaster\AFMaster\AFMaster\obj\Debug\AFMaster.csprojAssemblyReference.cache
+D:\TQS Source\Holger\AFMaster\AFMaster\AFMaster\bin\Debug\AFMaster.dll
+D:\TQS Source\Holger\AFMaster\AFMaster\AFMaster\bin\Debug\AFMaster.pdb
+D:\TQS Source\Holger\AFMaster\AFMaster\AFMaster\bin\Debug\OSIsoft.AFSDK.dll
+D:\TQS Source\Holger\AFMaster\AFMaster\AFMaster\bin\Debug\System.Text.Json.dll
+D:\TQS Source\Holger\AFMaster\AFMaster\AFMaster\bin\Debug\System.Memory.dll
+D:\TQS Source\Holger\AFMaster\AFMaster\AFMaster\bin\Debug\System.Text.Encodings.Web.dll
+D:\TQS Source\Holger\AFMaster\AFMaster\AFMaster\bin\Debug\System.Numerics.Vectors.dll
+D:\TQS Source\Holger\AFMaster\AFMaster\AFMaster\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\TQS Source\Holger\AFMaster\AFMaster\AFMaster\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\TQS Source\Holger\AFMaster\AFMaster\AFMaster\bin\Debug\System.Buffers.dll
+D:\TQS Source\Holger\AFMaster\AFMaster\AFMaster\bin\Debug\OSIsoft.AFSDK.xml
+D:\TQS Source\Holger\AFMaster\AFMaster\AFMaster\obj\Debug\AFMaster.csproj.CoreCompileInputs.cache
+D:\TQS Source\Holger\AFMaster\AFMaster\AFMaster\obj\Debug\AFMaster.csproj.CopyComplete
+D:\TQS Source\Holger\AFMaster\AFMaster\AFMaster\obj\Debug\AFMaster.dll
+D:\TQS Source\Holger\AFMaster\AFMaster\AFMaster\obj\Debug\AFMaster.pdb
+C:\Repos\AFMaster\AFMaster\bin\Debug\AFMaster.dll
+C:\Repos\AFMaster\AFMaster\bin\Debug\AFMaster.pdb
+C:\Repos\AFMaster\AFMaster\bin\Debug\OSIsoft.AFSDK.dll
+C:\Repos\AFMaster\AFMaster\bin\Debug\System.Text.Json.dll
+C:\Repos\AFMaster\AFMaster\bin\Debug\System.Memory.dll
+C:\Repos\AFMaster\AFMaster\bin\Debug\System.Numerics.Vectors.dll
+C:\Repos\AFMaster\AFMaster\bin\Debug\System.Buffers.dll
+C:\Repos\AFMaster\AFMaster\bin\Debug\OSIsoft.AFSDK.xml
+C:\Repos\AFMaster\AFMaster\obj\Debug\AFMaster.csproj.AssemblyReference.cache
+C:\Repos\AFMaster\AFMaster\obj\Debug\AFMaster.csproj.CoreCompileInputs.cache
+C:\Repos\AFMaster\AFMaster\obj\Debug\AFMaster.csproj.CopyComplete
+C:\Repos\AFMaster\AFMaster\obj\Debug\AFMaster.dll
+C:\Repos\AFMaster\AFMaster\obj\Debug\AFMaster.pdb

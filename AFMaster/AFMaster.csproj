@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{72BDB33F-2D9F-48DB-9FEC-A953F1EBEC57}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AFMaster</RootNamespace>
+    <AssemblyName>AFMaster</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Function\Calculation.cs" />
+    <Compile Include="DataModel.cs" />
+    <Compile Include="ErrorAspect.cs" />
+    <Compile Include="Function\Attribute.cs" />
+    <Compile Include="Function\Blend.cs" />
+    <Compile Include="Function\Category.cs" />
+    <Compile Include="Function\Connector.cs" />
+    <Compile Include="Function\Element.cs" />
+    <Compile Include="Function\ExcelFunctions.cs" />
+    <Compile Include="Function\Extensions.cs" />
+    <Compile Include="Function\Frame.cs" />
+    <Compile Include="Function\Point.cs" />
+    <Compile Include="Function\Table.cs" />
+    <Compile Include="Function\Template.cs" />
+    <Compile Include="Function\Transfer.cs" />
+    <Compile Include="Function\Value.cs" />
+    <Compile Include="Function\GetByPath.cs" />
+    <Compile Include="RServer.cs" />
+    <Compile Include="Util\Attribute.cs" />
+    <Compile Include="Util\BufferDictionary.cs" />
+    <Compile Include="Util\DataFrame.cs" />
+    <Compile Include="Util\Extensions.cs" />
+    <Compile Include="Util\Logger.cs" />
+    <Compile Include="Util\Conversion.cs" />
+    <Compile Include="Wrapper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Text.Json">
+      <HintPath>..AFMaster\libs\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="OSIsoft.AFSDK">
+      <HintPath>..AFMaster\libs\OSIsoft.AFSDK.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="libs\OSIsoft.AF.UI.dll" />
+    <Content Include="libs\OSIsoft.AF.UI.xml" />
+    <Content Include="libs\OSIsoft.AFSDK.dll" />
+    <Content Include="libs\OSIsoft.AFSDK.XML" />
+    <Content Include="libs\System.Memory.dll" />
+    <Content Include="libs\System.Text.Json.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>rem "C:\Program Files (x86)\Eziriz\.NET Reactor\dotNET_Reactor.Console.exe" -file "C:\Users\Holger\Source\Workspaces\AFMaster\AFMaster\AFMaster\bin\Debug\AFMaster.dll" -antitamp 1 -control_flow_obfuscation 1 -flow_level 9 -resourceencryption 1 -mapping_file 1
+rem xcopy "C:\Users\Holger\Source\Workspaces\AFMaster\AFMaster\AFMaster\bin\Debug\AFMaster_Secure\AFMaster.dll" "C:\Users\Holger\Documents\ROSIsoft\" /Y
+
+copy "$(TargetPath)" "C:\Users\Holger\PycharmProjects\PIFrames\AFMaster.dll"
+
+</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
